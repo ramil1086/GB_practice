@@ -12,6 +12,7 @@ public class Plate {
         System.out.println("Food in plate: " + food);
     }
 
+
     public boolean decreaseFood (Cat cat) {
         System.out.print(cat.getName() + " с аппетитом " + cat.getAppetite() + " подходит к миске и ...");
         if (food < cat.getAppetite()) {
