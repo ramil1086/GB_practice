@@ -16,8 +16,5 @@ public class Main {
         for (Cat cat : catsArray) {
             cat.eat(plate);
         }
-
-
-
     }
 }
