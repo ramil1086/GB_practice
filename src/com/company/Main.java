@@ -3,7 +3,7 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+
 
         Cat[] catsArray = new Cat[5];
         for (int i = 0; i < catsArray.length; i++) {
@@ -16,8 +16,5 @@ public class Main {
         for (Cat cat : catsArray) {
             cat.eat(plate);
         }
-
-
-
     }
 }

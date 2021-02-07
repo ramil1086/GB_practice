@@ -13,8 +13,6 @@ public class Cat  {
     public void eat (Plate plate) {
         foolness = plate.decreaseFood(this);
         System.out.println(name + " - cытость равна " + foolness);
-
-
     }
 
     public String getName() {
